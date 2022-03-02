@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+.link-white-mobile {
+    display:none
+}
+
+.link-white-pc {
+    color: whitesmoke !important;
+    
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+.link-white-pc {
+    display:none
+}
+
+
+.link-white-mobile {
+    display: block;
+    padding-right: 0px !important;
+    padding-left: 1.5px !important;
+    color: rgb(228, 228, 228) !important;
+}
+
+.social-icons-container {
+    position: relative !important;
+    right: 0px !important
+}
+}
